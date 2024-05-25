@@ -35,7 +35,7 @@ const About = () => {
   }, [wordIndex, currentIndex, skills]);
 
   return (
-    <div className="grid grid-cols-1   sm:grid sm:grid-cols-2 justify-center bg-black h-[100%] w-full text-white  leading-none ">
+    <div className="grid grid-cols-1 sm:grid sm:grid-cols-2 justify-center bg-black h-[100%] w-full text-white  leading-none ">
       <div className="order-last">
         <div className="flex justify-center m-auto sm:flex sm:justify-start pt-20  leading-none ">
           <h1 className=" font-bold text-[3.2rem]  text-center hover:text-orange-500 font-roboto ">
@@ -52,8 +52,12 @@ const About = () => {
               Full Stack MERN
             </span>{' '}
             (MongoDB, Express.js, React, Node.js) Developer with a Master’s in
-            Computer Science, I bring a strong academic background and practical
-            expertise. I’ve solved over{' '}
+            Computer Science from{' '}
+             <span className="text-[1.3rem] font-bold text-orange-500">
+            Birmingham City University
+            </span>
+            , I bring a strong academic background and practical expertise. I’ve
+            solved over{' '}
             <span className="text-[1.3rem] font-bold text-orange-500">500</span>{' '}
             LeetCode problems, enhancing my problem-solving abilities. My
             portfolio includes{' '}
@@ -68,9 +72,9 @@ const About = () => {
               Next.js
             </span>
             , I create dynamic, user-friendly interfaces. Additionally, I’m
-            proficient in
-            <span className="text-[1.3rem] font-bold text-orange-500"> C#</span>
-            , enabling me to tackle various back-end tasks. Committed to
+            proficient in{' '}
+            <span className="text-[1.3rem] font-bold text-orange-500">C#</span>,
+            enabling me to tackle various back-end tasks. Committed to
             continuous learning and collaboration, I strive to craft seamless
             digital experiences that integrate smoothly into users' lives.
           </p>
@@ -84,12 +88,12 @@ const About = () => {
           </button>
         </div>
       </div>
-      <div className="flex m-auto pt-20">
+      <div className="flex m-auto pt-20 ">
         <div className="h-[400px] w-[400px]  bg-orange-600 rounded-[100%] relative">
           <img
             src={photo}
             alt="logo"
-            className="absolute  top-10  h-[400px] w-[400px] rounded-[100%]"
+            className="absolute top-10 h-[400px] w-[400px] rounded-[100%]"
           />
         </div>
       </div>

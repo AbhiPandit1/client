@@ -17,10 +17,21 @@ const NavLinks = () => {
       name: 'Projects',
       links: 'projects',
     },
+
     {
       id: '4',
       name: 'Contact',
       links: 'contact',
+    },
+    {
+      id: '5',
+      name: 'Skills',
+      links: 'skills',
+    },
+    {
+      id: '6',
+      name: 'Experience',
+      links: 'experience',
     },
   ];
 

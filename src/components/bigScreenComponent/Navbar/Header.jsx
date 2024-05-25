@@ -7,7 +7,7 @@ import { ImCross } from 'react-icons/im';
 import MobileNavBar from '../../mobileComponent/MobileNavbar';
 
 const Header = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const setOpenTrue = () => {
     setOpen(!open);
@@ -31,7 +31,7 @@ const Header = () => {
               className="flex  justify-center items-center px-4  "
               onClick={setOpenTrue}
             >
-              {open === true ? (
+              {open !== true ? (
                 <GiHamburgerMenu color="white" size={30} />
               ) : (
                 <ImCross color="white" size={30} />
