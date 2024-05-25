@@ -67,8 +67,8 @@ const Education = () => {
           </div>
         </div>
         {/*WordPressSolutionss */}
-        <div className="h-[600px] w-[100%] p-[1rem] mt-[1rem] pr-4 sm::h-[500px] sm:w-[700px] sm:ml-20 sm:pl-20 sm:pt-20 border border-b shadow-md border-orange-500  ">
-          <div className="flex justify-between ">
+        <div className="h-[600px] w-[100%] p-[1rem] mt-[1rem]  sm::h-[500px] sm:w-[700px] sm:ml-[600px] sm:pl-5 sm:pt-5 border border-b shadow-md border-orange-500  ">
+          <div className="flex justify-between  ">
             <h1 className="text-[1.4rem]">
               <span className="text-[1.6rem] text-orange-500">W</span>ORDPRESS{' '}
               <span className="text-[1.6rem] text-orange-500">S</span>OLUTIONSS{' '}
@@ -78,11 +78,12 @@ const Education = () => {
             </h1>
             <p className="text-[1.3rem] mr-8">2022-2024</p>
           </div>
-          <div className="h-[300px] w-[94%] sm:h-[450px] sm:w-[550px] mt-5">
+          <div className="h-[200px] w-[94%] sm:h-[450px] sm:w-[550px] sm:m-auto mt-5">
             <div className="mb-4 pb-2">
               <p className="tracking-wide leading-relaxed font-roboto">
-                Successfully completed numerous freelance projects for reputable
-                clients including{' '}
+                <span className="text-[1.2rem]">1).</span> Successfully
+                completed numerous freelance projects for reputable clients
+                including{' '}
                 <span className="text-[1.4rem] text-orange-500">
                   WordPress Solution
                 </span>
@@ -96,7 +97,7 @@ const Education = () => {
 
             <div className="mb-4 pb-2">
               <p className="tracking-wide leading-relaxed font-roboto">
-                Utilized advanced{' '}
+                <span className="text-[1.2rem]">2).</span>Utilized advanced{' '}
                 <span className="text-[1.4rem] text-orange-500">React</span>{' '}
                 techniques to optimize website performance, resulting in a 40%
                 reduction in load times and enhancing overall user experience.
@@ -105,8 +106,21 @@ const Education = () => {
 
             <div className="mb-4  pb-2">
               <p className="tracking-wide leading-relaxed font-roboto">
-                Proactively refactored codebase to enhance maintainability and
-                scalability.
+                <span className="text-[1.2rem]">3).</span>Proactively refactored
+                codebase to enhance maintainability and scalability.
+              </p>
+            </div>
+            <div className="mb-4 ">
+              <p className="tracking-wide leading-relaxed font-roboto">
+                <span className="text-[1.2rem]">4).</span> Proactively
+                refactored codebase to enhance maintainability and scalability.
+                Collaborated closely with clients to comprehensively understand
+                their needs, achieving a{' '}
+                <span className="text-[1.4rem] text-orange-500">
+                  95% Satisfaction Rate
+                </span>
+                , and provided expert technical guidance throughout the
+                development lifecycle.
               </p>
             </div>
           </div>
