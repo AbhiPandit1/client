@@ -10,7 +10,7 @@ const Education = () => {
 
       <div className="text-white mt-4 pt-4 sm:p-4  ">
         {/*INK REVENUE */}
-        <div className="h-[600px] w-[100%] p-[1rem] pr-4 sm::h-[500px] sm:w-[700px] sm:ml-20 sm:pl-20 sm:pt-20 border border-b shadow-md border-orange-500  ">
+        <div className="h-[600px] w-[100%] p-[1rem] pr-4 sm::h-[500px] sm:w-[700px] sm:ml-20 sm:pl-20 sm:pt-20 sm:border sm:border-b sm:shadow-md sm:border-orange-500  ">
           <div className="flex justify-between ">
             <h1 className="text-[1.4rem]">
               <span className="text-[1.6rem] text-orange-500">I</span>NK{' '}
@@ -67,7 +67,7 @@ const Education = () => {
           </div>
         </div>
         {/*WordPressSolutionss */}
-        <div className="h-[600px] w-[100%] p-[1rem] mt-[1rem]  sm::h-[500px] sm:w-[700px] sm:ml-[600px] sm:pl-5 sm:pt-5 border border-b shadow-md border-orange-500  ">
+        <div className="h-[600px] w-[100%] p-[1rem] pr-4 sm::h-[500px] sm:w-[700px] sm:ml-20 sm:pl-20 sm:pt-20 sm:border sm:border-b sm:shadow-md sm:border-orange-500  ">
           <div className="flex justify-between  ">
             <h1 className="text-[1.4rem]">
               <span className="text-[1.6rem] text-orange-500">W</span>ORDPRESS{' '}
@@ -78,7 +78,7 @@ const Education = () => {
             </h1>
             <p className="text-[1.3rem] mr-8">2022-2024</p>
           </div>
-          <div className="h-[200px] w-[94%] sm:h-[450px] sm:w-[550px] sm:m-auto mt-5">
+          <div className="h-[400px] w-[94%] sm:h-[450px] sm:w-[550px] sm:m-auto mt-5">
             <div className="mb-4 pb-2">
               <p className="tracking-wide leading-relaxed font-roboto">
                 <span className="text-[1.2rem]">1).</span> Successfully
@@ -110,7 +110,7 @@ const Education = () => {
                 codebase to enhance maintainability and scalability.
               </p>
             </div>
-            <div className="mb-4 ">
+            <div className="mb-8 ">
               <p className="tracking-wide leading-relaxed font-roboto">
                 <span className="text-[1.2rem]">4).</span> Proactively
                 refactored codebase to enhance maintainability and scalability.

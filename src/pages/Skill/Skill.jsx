@@ -26,7 +26,7 @@ const Skill = () => {
     {
       id: '3',
       image: <IoLogoJavascript size={80} color="orange" />,
-      label: 'JavaScript',
+      label: 'JScript',
       type: 'Frontend',
     },
     {
@@ -67,7 +67,7 @@ const Skill = () => {
     },
   ];
   return (
-    <div className=" text-left pt-10 bg-black h-full">
+    <div className=" text-left pt-10 bg-black h-full sm:mt-0 ">
       <h1 className="text-[3.8rem] text-white font-bold relative">
         <span className="text-[4.2rem] text-orange-500">S</span>KILLS
         <div className="absolute bottom-0 left-0 pl-10 w-[120%] sm:w-[50%] h-1 bg-orange-500  transform -translate-x-[50%]"></div>
