@@ -10,7 +10,7 @@ import { ThemeContext } from './context/ThemeContext';
 function App() {
   const { textColor, bgColor } = useContext(ThemeContext);
   return (
-    <div className={`bg-${bgColor} text-${textColor}   `}>
+    <div className={`${bgColor} ${textColor}`}>
       <Header />
       <About />
       <Education />
