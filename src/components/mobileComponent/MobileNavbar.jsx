@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ThemeContext } from '../../context/ThemeContext';
 
 const MobileNavBar = () => {
   const navLinks = [
@@ -22,10 +23,23 @@ const MobileNavBar = () => {
       name: 'Contact',
       links: 'contact',
     },
+    {
+      id: '5',
+      name: 'Skills',
+      links: 'skills',
+    },
+    {
+      id: '6',
+      name: 'Experience',
+      links: 'experience',
+    },
   ];
+  const { textColor, bgColor } = useContext(ThemeContext);
 
   return (
-    <div className="text-white flex flex-col justify-center items-center  bg-black h-[85vh] w-full">
+    <div
+      className={`text-${textColor} flex flex-col justify-center items-center  bg-${bgColor} h-[85vh] w-full`}
+    >
       {navLinks.map((link) => (
         <div key={link.id} className="py-5 hover:text-orange-500">
           <a href={link.links}>
