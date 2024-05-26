@@ -4,8 +4,8 @@ export const ThemeContext = createContext();
 
 const ThemeProvider = ({ children }) => {
   const [style, setStyle] = useState('left-1');
-  const [textColor, setTextColor] = useState('black');
-  const [bgColor, setbgColor] = useState('white');
+  const [textColor, setTextColor] = useState('white');
+  const [bgColor, setbgColor] = useState('black');
 
   const handleTheme = () => {
     setStyle((prevStyle) => (prevStyle === 'right-1' ? 'left-1' : 'right-1'));
