@@ -1,30 +1,23 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { GrSun } from 'react-icons/gr';
 import { TbMoonFilled } from 'react-icons/tb';
+import { ThemeContext } from '../../../context/ThemeContext';
 
 const Theme = () => {
-  const [style, setStyle] = useState('left-1');
-
-  const handleTheme = () => {
-    if (style === 'right-1') {
-      setStyle('left-1');
-    } else {
-      setStyle('right-1');
-    }
-  };
+  const { style, handleTheme, textColor, bgColor } = useContext(ThemeContext);
 
   return (
     <div className="w-full h-full p-10">
-      <div className="h-9  w-24 p-1 bg-white  rounded-lg flex justify-between relative transition-all delay-300 duration-100">
+      <div className={`h-9  w-24 p-1 bg-${textColor}  rounded-lg flex justify-between relative transition-all delay-300 duration-100`}>
         <div>
-          <GrSun size={25} />
+          <GrSun size={25} color={bgColor} />
         </div>
         <div>
-          <TbMoonFilled size={25} />
+          <TbMoonFilled size={25} color={bgColor} />
         </div>
 
         <div
-          className={`h-7 w-7 rounded-full bg-slate-950 absolute ${style} hover:bg-orange-400`}
+          className={`h-7 w-7 rounded-full bg-${bgColor} absolute ${style} hover:bg-orange-400`}
           onClick={handleTheme}
         ></div>
       </div>

@@ -2,13 +2,13 @@ import React from 'react';
 
 const Education = () => {
   return (
-    <div className="flex flex-col text-left pt-10 bg-black h-full m-auto w-[100%] ">
-      <h1 className="text-[3.8rem] text-white font-bold relative ml-5">
+    <div className="flex flex-col text-left pt-10 h-full m-auto w-[100%] ">
+      <h1 className="text-[3.8rem] font-bold relative ml-5">
         <span className="text-[4.2rem] text-orange-500">E</span>XPERIENCE
         <div className="absolute bottom-0 left-0 pl-10 w-[180%] sm:w-[55%] h-1 bg-orange-500  transform -translate-x-[50%]"></div>
       </h1>
 
-      <div className="text-white mt-4 pt-4 sm:p-4  ">
+      <div className=" mt-4 pt-4 sm:p-4  ">
         {/*INK REVENUE */}
         <div className="h-[600px] w-[100%] p-[1rem] pr-4 sm::h-[500px] sm:w-[700px] sm:ml-20 sm:pl-20 sm:pt-20 sm:border sm:border-b sm:shadow-md sm:border-orange-500  ">
           <div className="flex justify-between ">

@@ -36,7 +36,7 @@ const NavLinks = () => {
   ];
 
   return (
-    <div className="text-white flex justify-center items-center ">
+    <div className=" flex justify-center items-center ">
       {navLinks.map((link) => (
         <div key={link.id} className="px-4 hover:text-orange-500">
           <a href={link.links}>

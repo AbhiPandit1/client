@@ -67,17 +67,17 @@ const Skill = () => {
     },
   ];
   return (
-    <div className=" text-left pt-10 bg-black h-full sm:mt-0 ">
-      <h1 className="text-[3.8rem] text-white font-bold relative">
+    <div className=" text-left pt-10  h-full sm:mt-0 ">
+      <h1 className="text-[3.8rem] font-bold relative">
         <span className="text-[4.2rem] text-orange-500">S</span>KILLS
         <div className="absolute bottom-0 left-0 pl-10 w-[120%] sm:w-[50%] h-1 bg-orange-500  transform -translate-x-[50%]"></div>
       </h1>
 
-      <div className="flex flex-col h-full gap-[10rem] p-8 text-white">
+      <div className="flex flex-col h-full gap-[10rem] p-8 ">
         {/*Front end Part */}
         <div className="grid grid-cols-1  sm:flex sm:gap-[20rem]">
           <div>
-            <h1 className=" text-[2.4rem] sm:text-[2.8rem] text-white font-bold">
+            <h1 className=" text-[2.4rem] sm:text-[2.8rem]  font-bold">
               <span className="text-[4.2rem] text-orange-500">F</span>RONT{' '}
               <span className="text-[4.2rem] text-orange-500">E</span>ND
             </h1>
@@ -97,7 +97,7 @@ const Skill = () => {
 
         <div className="grid grid-cols-1 sm:flex sm:gap-[20rem]">
           <div>
-            <h1 className=" text-[2.4rem] sm:text-[2.8rem] text-white font-bold">
+            <h1 className=" text-[2.4rem] sm:text-[2.8rem]  font-bold">
               <span className="text-[3.4rem] sm:text-[4.2rem] text-orange-500">
                 B
               </span>

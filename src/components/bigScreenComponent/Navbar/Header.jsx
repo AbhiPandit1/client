@@ -14,7 +14,7 @@ const Header = () => {
   };
   return (
     <>
-      <div className="flex items-center justify-between w-full h-[15vh] bg-black  border-b border-orange-500">
+      <div className="flex items-center justify-between w-full h-[15vh]  border-b border-orange-500">
         <div className="flex items-center p-5  text-[1.4rem] ">
           <Logo />
         </div>
@@ -32,9 +32,9 @@ const Header = () => {
               onClick={setOpenTrue}
             >
               {open !== true ? (
-                <GiHamburgerMenu color="white" size={30} />
+                <GiHamburgerMenu color="black" size={30} />
               ) : (
-                <ImCross color="white" size={30} />
+                <ImCross color="black" size={30} />
               )}
             </div>
           </div>

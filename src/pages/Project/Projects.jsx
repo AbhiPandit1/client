@@ -38,9 +38,9 @@ const Projects = () => {
   ];
 
   return (
-    <div className="bg-black h-full w-full text-white pt-10 font-extrabold">
+    <div className=" h-full w-full  pt-10 font-extrabold">
       <div className="relative flex flex-col items-center">
-        <h1 className="text-center text-[2.4rem] sm:text-[2.8rem] text-white word-xs">
+        <h1 className="text-center text-[2.4rem] sm:text-[2.8rem]  word-xs">
           PERS
           <span className="text-center text-[2.8rem] sm:text-[3.2rem] text-orange-500">
             O
@@ -57,7 +57,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project.id}
-            className="bg-black border-2 h-120 w-[80vw] sm:w-[40vw] gap-29 border-solid border-orange-500 p-10  rounded-lg shadow-md"
+            className=" border-2 h-120 w-[80vw] sm:w-[40vw] gap-29 border-solid border-orange-500 p-10  rounded-lg shadow-md"
           >
             <img
               src={project.image}

@@ -35,7 +35,7 @@ const About = () => {
   }, [wordIndex, currentIndex, skills]);
 
   return (
-    <div className="grid grid-cols-1 sm:grid sm:grid-cols-2 justify-center bg-black h-[100%] w-full text-white  leading-none ">
+    <div className="grid grid-cols-1 sm:grid sm:grid-cols-2 justify-center  h-[100%] w-full   leading-none ">
       <div className="order-last">
         <div className="flex justify-center m-auto sm:flex sm:justify-start pt-20  leading-none ">
           <h1 className=" font-bold text-[3.2rem]  text-center hover:text-orange-500 font-roboto ">
@@ -80,10 +80,10 @@ const About = () => {
           </p>
         </div>
         <div className="flex pl-20 pb-20 gap-3 items-center sm:pl-40 sm:gap-12 ">
-          <button className="font-bold bg-orange-500 px-10 py-5 rounded-xl hover:text-black hover:bg-slate-300 ">
+          <button className="font-bold bg-orange-500 px-10 py-5 rounded-xl hover: hover:bg-slate-300 ">
             Resume
           </button>
-          <button className="font-bold bg-orange-500 px-10 py-5 rounded-xl hover:text-black hover:bg-slate-300">
+          <button className="font-bold bg-orange-500 px-10 py-5 rounded-xl hover: hover:bg-slate-300">
             Contact
           </button>
         </div>
