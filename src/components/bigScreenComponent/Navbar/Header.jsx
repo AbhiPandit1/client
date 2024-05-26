@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Logo from './Logo';
 import Theme from './Theme';
 import NavLinks from './NavLinks';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { ImCross } from 'react-icons/im';
 import MobileNavBar from '../../mobileComponent/MobileNavbar';
+import { ThemeContext } from '../../../context/ThemeContext';
 
 const Header = () => {
+  const { textColor } = useContext(ThemeContext);
+
   const [open, setOpen] = useState(false);
 
   const setOpenTrue = () => {
@@ -32,9 +35,9 @@ const Header = () => {
               onClick={setOpenTrue}
             >
               {open !== true ? (
-                <GiHamburgerMenu color="black" size={30} />
+                <GiHamburgerMenu color={textColor} size={30} />
               ) : (
-                <ImCross color="black" size={30} />
+                <ImCross color={textColor} size={30} />
               )}
             </div>
           </div>
