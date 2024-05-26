@@ -9,24 +9,23 @@ const Theme = () => {
   return (
     <div className="w-full h-full p-10">
       <div
-        className={`h-9 w-24 p-1 ${
-          textColor === 'white' ? 'bg-black' : 'bg-orange-500'
-        } rounded-lg flex justify-between relative transition-all delay-300 duration-100`}
+        className={`h-9 w-24 p-1 bg-orange-500 rounded-lg flex justify-between relative transition-all delay-300 duration-100`}
       >
         <div>
-          <GrSun size={25} color={textColor === 'white' ? 'white' : 'black'} />
+          <GrSun
+            size={25}
+            color={textColor === 'text-black' ? 'black' : 'white'}
+          />
         </div>
         <div>
           <TbMoonFilled
             size={25}
-            color={textColor === 'white' ? 'white' : 'black'}
+            color={textColor === 'text-black' ? 'black' : 'white'}
           />
         </div>
 
         <div
-          className={`h-7 w-7 rounded-full ${
-            textColor === 'white' ? 'bg-white' : 'bg-black'
-          }  absolute ${style} hover:bg-orange-400`}
+          className={`h-7 w-7 rounded-full  ${textColor === 'text-black' ? 'bg-black' : 'bg-white'}  absolute ${style} hover:bg-orange-900`}
           onClick={handleTheme}
         ></div>
       </div>
