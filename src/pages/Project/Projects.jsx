@@ -1,5 +1,8 @@
 import React from 'react';
 import convergeHub from '../../assets/converge.png';
+import portfolio from '../../assets/portfolio.png';
+import campaign from '../../assets/campaign.png';
+import Gym from '../../assets/Gym.png';
 
 const Projects = () => {
   const projects = [
@@ -12,27 +15,27 @@ const Projects = () => {
       desc: 'I am excited to introduce you to ConverHub Meeting Room  a project I have poured my heart into. Utilizing the latest Next.js and TypeScript technologies, ConverHub Meeting Room provides a secure platform for seamless collaboration and engagement during meetings. Users can easily log in, create meetings, and access various features like recording, screen sharing, and participant management. Whether logging in via social sign-on or traditional email and password methods, starting new meetings with customizable settings, or managing aspects like recording and reactions, ConverHub Meeting Room offers full control and convenience. With the ability to schedule future meetings, review past sessions, and enjoy real-time functionality across devices, ConverHub Meeting Room is designed to enhance your virtual collaboration experience. Join the community today and witness the future of virtual meetings!',
     },
     {
-      id: '1',
-      name: 'Converge Hub',
-      image: convergeHub,
-      link: 'https://converge-hub.vercel.app/',
-      title: 'My Converge Hub',
-      desc: 'I am excited to introduce you to ConverHub Meeting Room  a project I have poured my heart into. Utilizing the latest Next.js and TypeScript technologies, ConverHub Meeting Room provides a secure platform for seamless collaboration and engagement during meetings. Users can easily log in, create meetings, and access various features like recording, screen sharing, and participant management. Whether logging in via social sign-on or traditional email and password methods, starting new meetings with customizable settings, or managing aspects like recording and reactions, ConverHub Meeting Room offers full control and convenience. With the ability to schedule future meetings, review past sessions, and enjoy real-time functionality across devices, ConverHub Meeting Room is designed to enhance your virtual collaboration experience. Join the community today and witness the future of virtual meetings!',
+      id: '2',
+      name: 'Portfolio Website',
+      image: portfolio,
+      link: 'https://client-zeta-ten-45.vercel.app/projects/1',
+      title: 'My Personal Portfolio',
+      desc: "Crafted with React.js and styled solely with Tailwind CSS, my portfolio website embodies simplicity and elegance. This project showcases my proficiency in frontend development, demonstrating clean design and responsive layouts. Through innovative use of React's capabilities and the power of Tailwind CSS, this website presents a seamless user experience.",
     },
     {
-      id: '1',
-      name: 'Converge Hub',
-      image: convergeHub,
-      link: 'https://converge-hub.vercel.app/',
+      id: '3',
+      name: 'Azhar Campaign',
+      image: campaign,
+      link: 'https://firstproject-i36x.vercel.app/',
       title: 'My Converge Hub',
-      desc: 'I am excited to introduce you to ConverHub Meeting Room  a project I have poured my heart into. Utilizing the latest Next.js and TypeScript technologies, ConverHub Meeting Room provides a secure platform for seamless collaboration and engagement during meetings. Users can easily log in, create meetings, and access various features like recording, screen sharing, and participant management. Whether logging in via social sign-on or traditional email and password methods, starting new meetings with customizable settings, or managing aspects like recording and reactions, ConverHub Meeting Room offers full control and convenience. With the ability to schedule future meetings, review past sessions, and enjoy real-time functionality across devices, ConverHub Meeting Room is designed to enhance your virtual collaboration experience. Join the community today and witness the future of virtual meetings!',
+      desc: 'The Azhar Campaign website is a testament to our commitment to social change. Developed using React.js and traditional CSS, this platform embodies our mission to raise awareness and promote positive impact. With its intuitive design and engaging user experience, visitors are seamlessly immersed in our cause, empowered to contribute and support our efforts. Join us on this journey towards a better world.',
     },
     {
-      id: '1',
-      name: 'Converge Hub',
-      image: convergeHub,
+      id: '4',
+      name: 'Gym',
+      image: Gym,
       link: 'https://converge-hub.vercel.app/',
-      title: 'My Converge Hub',
+      title: 'Gym',
       desc: 'I am excited to introduce you to ConverHub Meeting Room  a project I have poured my heart into. Utilizing the latest Next.js and TypeScript technologies, ConverHub Meeting Room provides a secure platform for seamless collaboration and engagement during meetings. Users can easily log in, create meetings, and access various features like recording, screen sharing, and participant management. Whether logging in via social sign-on or traditional email and password methods, starting new meetings with customizable settings, or managing aspects like recording and reactions, ConverHub Meeting Room offers full control and convenience. With the ability to schedule future meetings, review past sessions, and enjoy real-time functionality across devices, ConverHub Meeting Room is designed to enhance your virtual collaboration experience. Join the community today and witness the future of virtual meetings!',
     },
   ];
