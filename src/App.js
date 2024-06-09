@@ -5,17 +5,28 @@ import About from './pages/About/About';
 import Education from './pages/Education/Education';
 import Projects from './pages/Project/Projects';
 import Skill from './pages/Skill/Skill';
+
 import { ThemeContext } from './context/ThemeContext';
 
 function App() {
   const { textColor, bgColor } = useContext(ThemeContext);
+
   return (
     <div className={`${bgColor} ${textColor}`}>
       <Header />
-      <About />
-      <Education />
-      <Skill />
-      <Projects />
+
+      <section id="about">
+        <About />
+      </section>
+      <section id="education">
+        <Education />
+      </section>
+      <section id="skill">
+        <Skill />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
     </div>
   );
 }

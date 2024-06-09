@@ -5,7 +5,7 @@ const NavLinks = () => {
     {
       id: '1',
       name: 'Home',
-      links: 'home',
+      links: '/',
     },
     {
       id: '2',
@@ -17,7 +17,6 @@ const NavLinks = () => {
       name: 'Projects',
       links: 'projects',
     },
-
     {
       id: '4',
       name: 'Contact',
@@ -36,10 +35,10 @@ const NavLinks = () => {
   ];
 
   return (
-    <div className=" flex justify-center items-center ">
+    <div className="flex justify-center items-center">
       {navLinks.map((link) => (
         <div key={link.id} className="px-4 hover:text-orange-500">
-          <a href={link.links}>
+          <a href={`#${link.links}`}>
             <h1 className="text-[1.4rem]">{link.name}</h1>
           </a>
         </div>
