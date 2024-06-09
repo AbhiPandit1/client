@@ -53,8 +53,8 @@ const About = () => {
             </span>{' '}
             (MongoDB, Express.js, React, Node.js) Developer with a Master’s in
             Computer Science from{' '}
-             <span className="text-[1.3rem] font-bold text-orange-500">
-            Birmingham City University
+            <span className="text-[1.3rem] font-bold text-orange-500">
+              Birmingham City University
             </span>
             , I bring a strong academic background and practical expertise. I’ve
             solved over{' '}
@@ -81,10 +81,15 @@ const About = () => {
         </div>
         <div className="flex pl-20 pb-20 gap-3 items-center sm:pl-40 sm:gap-12 ">
           <button className="font-bold bg-orange-500 px-10 py-5 rounded-xl hover: hover:bg-slate-300 ">
-            Resume
+            <a
+              href="https://drive.google.com/file/d/1Z_U1BShJhkC9eX_GmwzEpD4jsJcKaca8/view?usp=drivesdk"
+              alt="#"
+            >
+              Resume
+            </a>
           </button>
           <button className="font-bold bg-orange-500 px-10 py-5 rounded-xl hover: hover:bg-slate-300">
-            Contact
+            <a href="mailto:224abhishekjha@gmail.com">Email me</a>
           </button>
         </div>
       </div>

@@ -18,10 +18,10 @@ function App() {
       <section id="about">
         <About />
       </section>
-      <section id="education">
+      <section id="experience">
         <Education />
       </section>
-      <section id="skill">
+      <section id="skills">
         <Skill />
       </section>
       <section id="projects">
