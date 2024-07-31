@@ -17,12 +17,12 @@ const Header = () => {
   };
   return (
     <>
-      <div className="flex items-center justify-between w-full h-[15vh]  border-b border-orange-500">
-        <div className="flex items-center p-5  text-[1.4rem] ">
+      <div className="flex items-center justify-between w-full h-[15vh] max-w-[100vw]  border-b border-orange-500">
+        <div className="flex items-center text-[1.4rem] pl-2 ">
           <Logo />
         </div>
         <div className=" flex items-center justify-center">
-          <div className="hidden sm:flex items-center justify-center px-20">
+          <div className="hidden sm:flex items-center justify-center ">
             <NavLinks />
           </div>
           <div>

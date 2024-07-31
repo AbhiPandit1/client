@@ -35,18 +35,20 @@ const About = () => {
   }, [wordIndex, currentIndex, skills]);
 
   return (
-    <div className="grid grid-cols-1 sm:grid sm:grid-cols-2 justify-center  h-[100%] w-full   leading-none ">
+    <div className="grid grid-cols-1 sm:grid sm:grid-cols-2 justify-center  h-[100%] w-full   leading-none max-w-[100vw]  overflow-hidden ">
       <div className="order-last">
         <div className="flex justify-center m-auto sm:flex sm:justify-start pt-20  leading-none ">
-          <h1 className=" font-bold text-[3.2rem]  text-center hover:text-orange-500 font-roboto ">
+          <h1 className=" font-bold text-[3.2rem]  text-center hover:text-orange-500 font-sans ">
             <span className="text-[6.2rem] text-orange-500">A</span>bout
           </h1>
         </div>
         <div>
-          <h3 className="text-[2.9rem] text-left pl-20">{displayedSkill}</h3>
+          <h3 className="text-[2rem] sm:text-[2.9rem] text-left">
+            {displayedSkill}
+          </h3>
         </div>
-        <div className="max-w-screen-lg p-10 m-auto">
-          <p className="text-[1.1rem] tracking-wide leading-relaxed font-roboto">
+        <div className="max-w-[100vw]">
+          <p className="text-[1.1rem] tracking-wide leading-relaxed font-sans w-[90%] m-auto">
             As a passionate{' '}
             <span className="text-[1.3rem] font-bold text-orange-500">
               Full Stack MERN
@@ -79,7 +81,7 @@ const About = () => {
             digital experiences that integrate smoothly into users' lives.
           </p>
         </div>
-        <div className="flex pl-20 pb-20 gap-3 items-center sm:pl-40 sm:gap-12 ">
+        <div className="flex justify-center mt-4    gap-3 items-center  sm:gap-12 ">
           <button className="font-bold bg-orange-500 px-10 py-5 rounded-xl hover: hover:bg-slate-300 ">
             <a
               href="https://drive.google.com/file/d/1Z_U1BShJhkC9eX_GmwzEpD4jsJcKaca8/view?usp=drivesdk"
@@ -93,7 +95,7 @@ const About = () => {
           </button>
         </div>
       </div>
-      <div className="flex m-auto pt-20 ">
+      <div className="flex  sm:m-auto pt-20 ">
         <div className="h-[400px] w-[400px]  bg-orange-600 rounded-[100%] relative">
           <img
             src={photo}
